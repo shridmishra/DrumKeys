@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(97,97,219,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+div.keys{
+    border: solid azure 2px;
+    border-radius: 9px;
+    color: azure;
+    background-color: black;
+    padding: 20px;
+    margin: 9px;
+    width: 100px;
+    height: 100px;
+   
+}
+
+div.name{
+    color: azure;
+    text-align: center;
+    
+
+}
