@@ -5,22 +5,22 @@ document.addEventListener( "keydown" , event=>{
     console.log(name);
    
     if(name=="b"){
-    var audio = new Audio("sounds/boom.wav");
+    var audio = new Audio("boom.wav");
     audio.play();}
     else if(name=="c"){
-        var audio = new Audio("sounds/clap.wav");
+        var audio = new Audio("clap.wav");
         audio.play();
     }
     else if(name=="k"){
-        var audio = new Audio("sounds/kick.wav");
+        var audio = new Audio("kick.wav");
         audio.play();
     }
     else if(name=="r"){
-        var audio = new Audio("sounds/ride.wav");
+        var audio = new Audio("ride.wav");
         audio.play();
     }
     else if(name=="s"){
-        var audio = new Audio("sounds/snare.wav");
+        var audio = new Audio("snare.wav");
         audio.play();
     }
     else{
