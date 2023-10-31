@@ -24,7 +24,7 @@ document.addEventListener( "keydown" , event=>{
         audio.play();
     }
     else{
-        alert("Try S R K B C ");
+        alert("Try pressing S R K B C on keyboard");
     }
 
 });
